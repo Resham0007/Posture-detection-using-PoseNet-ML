@@ -13,6 +13,9 @@ JavaScript: Implements the core functionality of PoseNet using the ml5.js librar
 ml5.js: A friendly high-level interface to TensorFlow.js, providing simple machine learning models.
 p5.js: A library for creating visualizations and interactive content.
 
+## Features
+The model uses the Posenet model to detect human pose in real-time from a webcam. The model uses the keypoints detected by the Posenet to draw skeleton lines on the human pose. The model overlays images of spectacles and smoke on the nose keypoint.
+
 ## Advantages
 Real-time Detection: Capable of detecting body postures in real-time using a webcam.
 Ease of Use: ml5.js provides a simple interface for integrating PoseNet.
